@@ -155,7 +155,7 @@ void size_prompt(){
 		if(num_rows < 4){
 			printf("Please choose rows equal to or greater than 4\n");
 		}
-		if(num_rows > 40){
+		if(num_rows >= 40){
 			printf("There may be formatting errors with too large of dimensions\n");
 		}
 		if (num_rows >= 4){
@@ -170,7 +170,7 @@ void size_prompt(){
 		if(num_cols < 4){
 			printf("Please choose columns equal to or greater than 4\n");
 		}
-		if(num_cols > 40){
+		if(num_cols >= 40){
 			printf("There may be formatting errors with too large of dimensions\n");
 		}
 		if (num_cols >= 4){
@@ -338,7 +338,6 @@ int comp_best_move (char *board, int player, char *piece_select){
 
 //This function continues my depth first search by looking at the stuff around the position of the potential move passed to it from above
 int calc_move(char *board, int player, char *piece_select, int position){
-	printf("\x1b[31m\ncalc_move received:%d\x1b[0m",position);
 	int score = 0;
 	int x;
 	int add;
