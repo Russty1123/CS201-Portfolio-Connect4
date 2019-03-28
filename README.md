@@ -23,3 +23,6 @@ Alongside the score, a printout of the winning board state is also visible on sc
 After the games completion, the user will be prompted if they want to play again. 
 If they select N, then the program will exit and scores will be reset. 
 If they select Y, scores will be preserved and the program will run from the settings prompts through the entire game again. 
+
+
+A full video demo can be found by visiting: https://www.youtube.com/watch?v=XFvXxVlDZiI&feature=youtu.be
