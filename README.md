@@ -1,6 +1,6 @@
 # CS201-Portfolio-Connect4
-This project is designed to fulfill the portfolio project for the University of Alabama's CS 201 course 
-Spring Semester, 2019, Taught by Dr. Anderson
+This project is designed to fulfill the portfolio project for the University of Alabama's CS 201 course: 
+Spring Semester, 2019, taught by Dr. Anderson.
 The option I am fulfilling is the Game - Connect 4 option
 
 To run the game, all that is necessary is for the user to navigate into the 
